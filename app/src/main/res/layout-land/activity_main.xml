@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_blue_light"
+            android:orientation="vertical"
+            >
+
+
+        <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:src="@drawable/enquiry_bk"
+                android:layout_marginStart="60dp"/>
+
+        <TextView
+                android:id="@+id/textView1"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/enter_information"
+                android:layout_marginTop="-160dp"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:paddingLeft="20sp"
+                android:layout_marginStart="150dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="150dp"/>
+
+
+        <EditText
+                android:id="@+id/tbName"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/edittextstyle"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:hint="@string/Name"
+                android:inputType="text"
+                android:textColorHint="#000"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="80dp"
+                android:paddingLeft="20dp"
+        />
+
+
+        <EditText
+                android:id="@+id/startdate"
+                android:hint="@string/date_of_birth"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="-40dp"
+                android:background="@drawable/edittextstyle"
+                android:textColor="@color/white"
+                android:layout_marginLeft="450dp"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:textColorHint="#000"
+                android:layout_marginStart="450dp"
+                android:paddingLeft="20dp"/>
+
+
+        <EditText
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:inputType="textMultiLine"
+                android:gravity="start|top"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle"
+                android:textColor="@color/white"
+                android:layout_marginLeft="80dp"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:textColorHint="#000"
+                android:id="@+id/tbaddress"
+                android:paddingLeft="20dp"
+                android:hint="@string/Address" android:layout_marginStart="80dp"/>
+
+
+        <EditText
+                android:id="@+id/NIC"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:layout_marginTop="-100dp"
+                android:background="@drawable/edittextstyle"
+                android:textColor="@color/white"
+                android:layout_marginLeft="450dp"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:hint="@string/NIC"
+                android:paddingLeft="20dp"
+                android:textColorHint="#000" android:layout_marginStart="450dp"/>
+
+        <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Sex"
+                android:textSize="20sp"
+                android:layout_marginTop="60dp"
+                android:textColor="#000"
+                android:layout_marginLeft="80dp"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:paddingLeft="20dp"
+                android:layout_marginStart="80dp" />
+
+
+        <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="400dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_height="100dp">
+
+            <RadioButton
+                    android:id="@+id/Male"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="true"
+                    android:background="@drawable/edittextstyle"
+                    android:layout_marginLeft="80dp"
+                    android:text="@string/Male" android:layout_marginStart="80dp"/>
+
+            <RadioButton
+                    android:id="@+id/Female"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="-30dp"
+                    android:background="@drawable/edittextstyle"
+                    android:layout_marginLeft="260dp"
+
+                    android:text="@string/Female" android:layout_marginStart="260dp"/>
+
+
+        </RadioGroup>
+
+        <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="-140dp"
+
+                android:textColor="#000"
+                android:layout_marginLeft="450dp"
+                android:drawablePadding="5dp"
+                android:text="@string/Age" android:layout_marginStart="450dp" />
+        <Spinner
+                android:id="@+id/Age"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="450dp"
+                android:layout_marginLeft="450dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle"
+                android:textColor="@color/white"
+               />
+
+        <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:layout_marginLeft="40dp"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:text="@string/Movie_catergories"
+                android:layout_marginStart="40dp"/>
+
+        <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="@string/Comedy" android:layout_marginStart="80dp"/>
+
+        <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="@string/Cartoon" android:layout_marginStart="80dp"/>
+        <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="@string/Thriller" android:layout_marginStart="80dp"/>
+        <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="@string/Action" android:layout_marginStart="80dp"/>
+        <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="@string/Love" android:layout_marginStart="80dp"/>
+        <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="450dp"
+                android:layout_marginTop="-150dp"
+                android:text="@string/Family" android:layout_marginStart="450dp"/>
+        <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="450dp"
+                android:text="@string/Musical" android:layout_marginStart="450dp"/>
+        <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="@string/Adventure" android:layout_marginStart="450dp"/>
+        <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="@string/Scientific_fiction" android:layout_marginStart="450dp"/>
+
+        <Button
+                android:id="@+id/bSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorAccent"
+                android:background="@drawable/edittextstyle"
+                android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

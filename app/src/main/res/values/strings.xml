@@ -1,0 +1,47 @@
+<resources>
+
+
+        <string name="app_name">Video Renting Shop</string>
+        <string name="enter_information">Gather Information</string>
+        <string name="phone_number">Phone Number</string>
+        <string name="address">Address</string>
+        <string name="landmark">Landmark</string>
+        <string name="checkboxes">CheckBoxes</string>
+
+        <string name="radiogroup">radiogroup</string>
+        <string name="cleanliness">Cleanliness</string>
+        <string name="quality">quality</string>
+        <string name="toggle">toggle</string>
+        <string name="opening_time">Opening Time</string>
+        <string name="submit">Submit</string>
+        <string name="test">Test</string>
+        <string name="A"/>
+        <string name="compoundentry2">compoundEntry2</string>
+        <string name="take_picture">Take Picture</string>
+        <string name="get_current_location">Get Current Location</string>
+        <string name="compound_entry_1">compound entry 1</string>
+        <string name="age">age</string>
+        <string name="birthdate">birthdate</string>
+        <string name="date">date</string>
+        <string name="nic">nic</string>
+    <string name="Address">Address</string>
+    <string name="Male">Male</string>
+        <string name="Female">Female</string>
+    <string name="Sex">Sex</string>
+        <string name="Name">Name</string>
+        <string name="Comedy">Comedy</string>
+        <string name="Cartoon">Cartoon</string>
+        <string name="Thriller">Thriller</string>
+        <string name="Action">Action</string>
+        <string name="Love">Love</string>
+        <string name="Family">Family</string>
+        <string name="Musical">Musical</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="NIC">NIC</string>
+    <string name="Age">Age</string>
+    <string name="Movie_catergories">Movie_catergories</string>
+    <string name="Adventure">Adventure</string>
+    <string name="Scientific_fiction">Scientific_fiction</string>
+    <string name="watch_your_movies">Watch your movies</string>
+    <string name="welcome">Welcome</string>
+</resources>
